@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!--product-list.html-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <title>Joke Book</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="/public/scrpit.js" defer></script>
+
+  </head>
+  <body>
+
+<h1>Joke Book</h1>
+    
+<table id="jokeTable">
+    <thead>
+        <tr>
+            <th>Joke</th>
+            <th>Response</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<div id="space"></div>
+
+<div id="jokeContainer"></div>
+    <button onclick="getAllJokes()">Random Joke</button>
+
+    <div id="space"></div>
+
+  
+    
+    <div id ="form-popup" id="myForm">
+    <form id="jokeEntry-container">
+      <h3> Choices Joke Category</h3> 
+      <select name="categories" id="categories">
+        <option value="funnyJoke" id ="funnyJoke">Funny</option>
+        <option value="lameJoke" id=" lameJoke" >Lame</option>
+      </select>
+      
+      <h3> Enter Joke </h3> <input type="tetxt" id ="joke" placeholder="Enter Joke" />
+      <h3> Enter Joke Response</h3>  <input type="text" id="response" placeholder="Enter response" />
+     
+      <button type="submit" id="save-product" class="btn">Save</button>
+      <button type="button" id="cancel-btn">Close</button>
+    </form>
+</div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Display</title>
+</head>
+<body>
+    
+
+</body>
+</html>
+
+
+</body>
+</html>

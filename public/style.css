@@ -1,0 +1,20 @@
+#space{
+    border: 2px solid black;
+}
+button{
+    margin: 5px;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+ th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #282626;
+        } th {
+            background-color: #888888;
+        }
+        body{
+            background-color: aliceblue;
+        }
